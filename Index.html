@@ -215,36 +215,38 @@
 
       <!-- Timeline -->
       <div id="timeline" class="timeline">
-  <div class="step">
-    <div class="label">Shipment Registered <span class="checkmark"></span></div>
-    <div class="location">Liverpool, United Kingdom</div>
-    <div class="timestamp">May 12, 2026, 06:15 PM GMT+1</div>
+  <div<div id="timeline" class="timeline">
+  <div class="step current">
+    <div class="label">Shipment Registered</div>
+    <div class="location">Damascus, Syria</div>
+    <div class="timestamp">May 16, 2026, 2:24 PM GMT+3</div>
   </div>
 
-  <div class="step current">
+  <div class="step">
     <div class="label">In Transit</div>
     <div class="location">Departed Facility</div>
-    <div class="timestamp">ON HOLD ⏸️</div>
+    <div class="timestamp">Pending</div>
   </div>
 
   <div class="step">
     <div class="label">Customs Clearance</div>
-    <div class="location">Great Falls Area Port, Montana, USA</div>
+    <div class="location">Mexico Entry Port</div>
     <div class="timestamp">Pending</div>
   </div>
 
   <div class="step">
     <div class="label">Out for Delivery</div>
-    <div class="location">Havre, Montana, USA</div>
+    <div class="location">Soledad de Graciano Sánchez, S.L.P., Mexico</div>
     <div class="timestamp">Pending</div>
   </div>
 
   <div class="step">
     <div class="label">Delivered</div>
     <div class="location">
-      1011 Lincoln Ave<br>
-      Havre, MT 59501<br>
-      United States
+      República de Argentina 212<br>
+      San Francisco, 78435<br>
+      Soledad de Graciano Sánchez, S.L.P.<br>
+      Mexico
     </div>
     <div class="timestamp">Pending</div>
   </div>
@@ -281,7 +283,7 @@
       setTimeout(() => {
         if (input === allowedNumber) {
           progressContainer.style.display = "block";
-          progressBar.style.width = "67%";
+          progressBar.style.width = "10%";
 
           timeline.style.display = "block";
           setTimeout(() => timeline.classList.add("show"), 50);
