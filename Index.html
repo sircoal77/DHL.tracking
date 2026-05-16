@@ -215,16 +215,16 @@
 
       <!-- Timeline -->
       <div id="timeline" class="timeline">
-  <div class="step current">
-    <div class="label">Shipment Registered</div>
+  <div class="step">
+    <div class="label">Shipment Registered <span class="checkmark"></span></div>
     <div class="location">Damascus, Syria</div>
     <div class="timestamp">May 16, 2026, 2:24 PM GMT+3</div>
   </div>
 
-  <div class="step">
+  <div class="step current">
     <div class="label">In Transit</div>
     <div class="location">Departed Facility</div>
-    <div class="timestamp">Pending</div>
+    <div class="timestamp">May 16, 2026, 11:01 PM GMT+3</div>
   </div>
 
   <div class="step">
@@ -276,7 +276,7 @@
       setTimeout(() => {
         if (input === allowedNumber) {
           progressContainer.style.display = "block";
-          progressBar.style.width = "10%";
+          progressBar.style.width = "21%";
 
           timeline.style.display = "block";
           setTimeout(() => timeline.classList.add("show"), 50);
